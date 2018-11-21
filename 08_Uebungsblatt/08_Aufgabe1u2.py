@@ -39,7 +39,6 @@ def once(func, *args, **kwargs):
 
 # Zeichnen der Epipolarlinien (Quelle: Oliver Wasenmüller)
 def drawlines(img1,img2,lines,pts1,pts2):
-    print(img1.shape)
     r,c = img1.shape
     img1 = cv2.cvtColor(img1,cv2.COLOR_GRAY2BGR)
     img2 = cv2.cvtColor(img2,cv2.COLOR_GRAY2BGR)
@@ -72,6 +71,7 @@ def write_ply(fn, verts):
 print "----------------------"
 print "Computer Vision (CVIS)"
 print "Übungsblatt 08"
+print "--------------"
 
 fx = 707
 fy = 707
@@ -80,7 +80,6 @@ cy = 180
 
 # Funktion zum Einlesen der Bilder (Quelle: Benjamin Schönke)
 def bildpaarEinlesen(pics, pairName):
-    print "--------------"
     print "Aufgabe 1: Epipolarlinien"
     print "1. *lese Bildpaar ein*"
     img1 = cv2.imread(pics[0])
@@ -190,21 +189,20 @@ def bildpaarEinlesen(pics, pairName):
         return zaehler
 
     ergebnisse = []
-    ergebnisse.append(pruefe_3d_punkte(pointcloud1)) # 69
-    ergebnisse.append(pruefe_3d_punkte(pointcloud2)) # 0
-    ergebnisse.append(pruefe_3d_punkte(pointcloud3)) # 60
-    ergebnisse.append(pruefe_3d_punkte(pointcloud4)) # 169
-    ergebnisse.append(pruefe_3d_punkte(pointcloud5)) # 229
-    ergebnisse.append(pruefe_3d_punkte(pointcloud6)) # 161
+    ergebnisse.append(pruefe_3d_punkte(pointcloud1))
+    ergebnisse.append(pruefe_3d_punkte(pointcloud2))
+    ergebnisse.append(pruefe_3d_punkte(pointcloud3))
+    ergebnisse.append(pruefe_3d_punkte(pointcloud4))
+    ergebnisse.append(pruefe_3d_punkte(pointcloud5))
+    ergebnisse.append(pruefe_3d_punkte(pointcloud6))
 
     print "Ergebnisse: ", ergebnisse
 
     pointcloud_final = pointcloud5 # Manuelle Zuweisung
 
-    print "P2 und P4 haben 229 Punkte vor den Kameras. Anzahl der Punkte insgesamt: ", len(pointcloud_final)
-
-    write_ply('punktwolke.ply', pointcloud_final)
-
+    write_ply('punktwolke_' + pairName + '.ply', pointcloud_final)
+    print "------------------------------------------------------------------------------------"
+    
 # [START] Aufruf der Funktionen
 picture_pair1 = glob.glob('images/KITTI11_*.png')
 picture_pair2 = glob.glob('images/KITTI14_*.png')
