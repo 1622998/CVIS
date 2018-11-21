@@ -168,18 +168,18 @@ def bildpaarEinlesen(pics, pairName):
     R1, R2, t = cv2.decomposeEssentialMat(E)
     
     # 4 Möglichkeiten für die Kamerapose
+    P0 = K.dot(np.hstack((np.eye(3), np.zeros((3, 1)))))
     P1 = K.dot(np.hstack((R1, t)))
     P2 = K.dot(np.hstack((R1, t*(-1))))
     P3 = K.dot(np.hstack((R2, t)))
     P4 = K.dot(np.hstack((R2, t*(-1))))
 
     # Triangulieren von Punkten
-    pointcloud1 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P1,P2,pts1.T,pts2.T).T)
-    pointcloud2 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P1,P3,pts1.T,pts2.T).T)
-    pointcloud3 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P1,P4,pts1.T,pts2.T).T)
-    pointcloud4 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P2,P3,pts1.T,pts2.T).T)
-    pointcloud5 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P2,P4,pts1.T,pts2.T).T)
-    pointcloud6 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P3,P4,pts1.T,pts2.T).T)
+    pointcloud1 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P0,P1,pts1.T,pts2.T).T)
+    pointcloud2 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P0,P2,pts1.T,pts2.T).T)
+    pointcloud3 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P0,P3,pts1.T,pts2.T).T)
+    pointcloud4 = cv2.convertPointsFromHomogeneous(cv2.triangulatePoints(P0,P4,pts1.T,pts2.T).T)
+
 
     def pruefe_3d_punkte(cloud):
         zaehler = 0
@@ -193,12 +193,22 @@ def bildpaarEinlesen(pics, pairName):
     ergebnisse.append(pruefe_3d_punkte(pointcloud2))
     ergebnisse.append(pruefe_3d_punkte(pointcloud3))
     ergebnisse.append(pruefe_3d_punkte(pointcloud4))
-    ergebnisse.append(pruefe_3d_punkte(pointcloud5))
-    ergebnisse.append(pruefe_3d_punkte(pointcloud6))
+
+    max_wert = max(ergebnisse)
+    max_index = ergebnisse.index(max_wert)
 
     print "Ergebnisse: ", ergebnisse
+    print "max_value: ", max_wert
+    print "max_index: ", max_index
 
-    pointcloud_final = pointcloud5 # Manuelle Zuweisung
+    if max_index == 0:
+        pointcloud_final = pointcloud1
+    elif max_index == 1:
+        pointcloud_final = pointcloud2
+    elif max_index == 2:
+        pointcloud_final = pointcloud3
+    else:
+        pointcloud_final = pointcloud4
 
     write_ply('punktwolke_' + pairName + '.ply', pointcloud_final)
     print "------------------------------------------------------------------------------------"
