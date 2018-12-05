@@ -1,3 +1,5 @@
+# -*- coding: cp1252 -*-
+
 # Computer Vision (CVIS)
 # Uebungsblatt 03
 # Aufgabe 1
@@ -5,7 +7,7 @@
 # Schreibe ein Python Programm, das
 # * Bei dem Benutzer eine Zahl n abfragt
 # * Den Buchstaben 'd' danach n-Mal ausgibt
-# * Der Buchstabe 'd' soll abwechselnd klein und gro√ü geschrieben werden
+# * Der Buchstabe 'd' soll abwechselnd klein und groﬂ geschrieben werden
 #
 # 1a: verwende dazu eine for-schleife
 # 1b: verwende dazu eine while-schleife

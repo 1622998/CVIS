@@ -1,4 +1,5 @@
 # -*- coding: cp1252 -*-
+
 # Computer Vision (CVIS)
 # Uebungsblatt 03
 # Aufgabe 2
