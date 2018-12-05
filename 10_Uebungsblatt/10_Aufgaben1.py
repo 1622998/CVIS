@@ -100,9 +100,10 @@ def bildpaar_einlesen(path, pair_name, ending):
                         g = img[x, y][1]
                         b = img[x, y][0]
                         array.append([x, y, z, r, g, b])
-            return array
+            return np.array(array)
 
         kolorierte_punktwolke = generiere_kolorierte_punktwolke(tiefe, depth_img_out)
+        print kolorierte_punktwolke.shape
         write_plyc('TiefenPunktwolke_' + pair_name + '.ply', np.array(kolorierte_punktwolke))
         print "Aufgabe 3: Rausch-Entfernung"
         stereo = cv2.StereoSGBM_create(min_disp, num_disp, blocksize, speckleWindowSize=100, speckleRange=1)
@@ -117,24 +118,34 @@ def bildpaar_einlesen(path, pair_name, ending):
         print "1.3: extrinsische Transformation auf Punktwolke anwenden"
         r = np.eye(3, dtype=float)
 
-        extrinsics1 = np.vstack((np.hstack((r, np.array([0.3, 0.3, 0.3]))), np.array([0., 0., 0., 1.])))
-        extrinsics2 = np.vstack((np.hstack((r, np.array([0.6, 0.6, 0.6]))), np.array([0., 0., 0., 1.])))
-        extrinsics3 = np.vstack((np.hstack((r, np.array([0.9, 0.9, 0.9]))), np.array([0., 0., 0., 1.])))
-        extrinsics4 = np.vstack((np.hstack((r, np.array([1.2, 1.2, 1.2]))), np.array([0., 0., 0., 1.])))
+        extrinsics1 = np.vstack((np.hstack((r, np.array([[0.3], [0.3], [0.3]]))), np.array([0., 0., 0., 1.])))
+        extrinsics2 = np.vstack((np.hstack((r, np.array([[0.6], [0.6], [0.6]]))), np.array([0., 0., 0., 1.])))
+        extrinsics3 = np.vstack((np.hstack((r, np.array([[0.9], [0.9], [0.9]]))), np.array([0., 0., 0., 1.])))
+        extrinsics4 = np.vstack((np.hstack((r, np.array([[1.2], [1.2], [1.2]]))), np.array([0., 0., 0., 1.])))
 
-        def multipliziere_punktwolke(punktwolke, extrinsics):
-            for x in range(0, punktwolke.shape[0]):
-                for y in range(0, punktwolke.shape[1]):
-                    for z in range(0, punktwolke.shape[2]):
-                        punktwolke[x, y, z] = punktwolke.dot(extrinsics)
-            return punktwolke
+        punktwolken_koordinaten = np.array(kolorierte_punktwolke[:,:3])
+        punktwolken_farben = np.array(kolorierte_punktwolke[:,3:])
 
-        transformierte_punktwolke1 = multipliziere_punktwolke(kolorierte_punktwolke, extrinsics1)
-        transformierte_punktwolke2 = multipliziere_punktwolke(kolorierte_punktwolke, extrinsics2)
-        transformierte_punktwolke3 = multipliziere_punktwolke(kolorierte_punktwolke, extrinsics3)
-        transformierte_punktwolke4 = multipliziere_punktwolke(kolorierte_punktwolke, extrinsics4)
+        def multipliziere_punktwolke(koordinaten, extrinsics):
+            print koordinaten.shape
+            print koordinaten.shape[1]
 
-        write_plyc('TiefenPunktwolke_Rausch-entfernt_' + pair_name + '.ply', np.array(kolorierte_punktwolke))
+            for x in range(0, koordinaten.shape[0]):
+                for y in range(0, koordinaten.shape[1]):
+                    for z in range(0, koordinaten.shape[2]):
+                        koordinaten[x, y, z] = koordinaten[x, y, z].dot(extrinsics)
+            return koordinaten
+
+        transformierte_punktwolke1 = np.hstack(multipliziere_punktwolke(punktwolken_koordinaten, extrinsics1), punktwolken_farben)
+        transformierte_punktwolke2 = np.hstack(multipliziere_punktwolke(punktwolken_koordinaten, extrinsics2), punktwolken_farben)
+        transformierte_punktwolke3 = np.hstack(multipliziere_punktwolke(punktwolken_koordinaten, extrinsics3), punktwolken_farben)
+        transformierte_punktwolke4 = np.hstack(multipliziere_punktwolke(punktwolken_koordinaten, extrinsics4), punktwolken_farben)
+
+        write_plyc('Kolorierte_Punktwolke.ply', np.array(kolorierte_punktwolke))
+        write_plyc('Transformierte_punktwolke1.ply', np.array(transformierte_punktwolke1))
+        write_plyc('Transformierte_punktwolke2.ply', np.array(transformierte_punktwolke2))
+        write_plyc('Transformierte_punktwolke3.ply', np.array(transformierte_punktwolke3))
+        write_plyc('Transformierte_punktwolke4.ply', np.array(transformierte_punktwolke4))
 
     finde_dichte_matches(12)
 
