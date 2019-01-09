@@ -2,36 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fcf10af-09f9-4d5b-b58f-be3e715609db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Uebungsblatt/03_Aufgabe1.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Uebungsblatt/03_Aufgabe1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Uebungsblatt/03_Aufgabe2.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_Uebungsblatt/03_Aufgabe2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Uebungsblatt/03_U_OpenCV.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_Uebungsblatt/03_Übungsblatt.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Uebungsblatt/04_U_Projektion.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_Uebungsblatt/04_Übungsblatt.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_Uebungsblatt/05_U_Kalibrierung.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/05_Uebungsblatt/05_Übungsblatt.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_Uebungsblatt/06_Übungsblatt.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_Uebungsblatt/07_Übungsblatt.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/08_Aufgabe1u2.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/08_Aufgabe1u2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/08_Übungsblatt_updated.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/KITTI11_1_mitLinien.png" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/KITTI11_1_mitLinien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/KITTI11_2_mitLinien.png" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/KITTI11_2_mitLinien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/KITTI14_1_mitLinien.png" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/KITTI14_1_mitLinien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/KITTI14_2_mitLinien.png" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/KITTI14_2_mitLinien.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI11_94.png, 5.once" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI11_94.png, 5.once" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI11_96.png, 5.once" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI11_96.png, 5.once" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI14_31_left.png, 5.once" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI14_31_left.png, 5.once" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI14_31_right.png, 5.once" beforeDir="false" afterPath="$PROJECT_DIR$/08_Uebungsblatt/cache/detect_keypointsimages_KITTI14_31_right.png, 5.once" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/09_Übungsblatt.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_12.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_16.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_4.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_8.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_12.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_16.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_4.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_8.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Bild_aus_transformierter_punktwolke1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Bild_aus_transformierter_punktwolke2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Bild_aus_transformierter_punktwolke3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Bild_aus_transformierter_punktwolke4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Kolorierte_Punktwolke.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Transformierte_punktwolke1.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Transformierte_punktwolke2.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Transformierte_punktwolke3.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Uebungsblatt/Transformierte_punktwolke4.ply" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3_neu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_Rausch-entfernt_blockSize12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_Rausch-entfernt_blockSize16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_Rausch-entfernt_blockSize4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_Rausch-entfernt_blockSize8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize12.png" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize12.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize16.png" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize16.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize4.png" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize8.png" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_KITTI14.ply" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_KITTI14.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_KITTI14.ply" beforeDir="false" afterPath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_KITTI14.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/10_Übungsblatt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Tiefenbild_Rausch-entfernt_blockSize12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Tiefenbild_Rausch-entfernt_blockSize16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Tiefenbild_Rausch-entfernt_blockSize4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/KITTI14_Tiefenbild_Rausch-entfernt_blockSize8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_KITTI14.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_KITTI14.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/KITTI14_Disparitaetsbild_Rausch-entfernt_blockSize12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/KITTI14_Disparitaetsbild_blockSize12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/KITTI14_Tiefenbild_Rausch-entfernt_blockSize12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/KITTI14_Tiefenbild_blockSize12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/TiefenPunktwolke_KITTI14.ply" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_Uebungsblatt/TiefenPunktwolke_Rausch-entfernt_KITTI14.ply" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,54 +51,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08_Uebungsblatt/08_Aufgabe1u2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
-              <folding>
-                <element signature="e#41#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="134" column="97" selection-start-line="134" selection-start-column="97" selection-end-line="134" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05_Uebungsblatt/05_Aufgabe1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3_neu.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="89" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="370">
+                  <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="257">
+                  <caret line="141" column="15" selection-start-line="141" selection-start-column="15" selection-end-line="141" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,12 +101,17 @@
         <option value="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgabe1.py" />
         <option value="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3.py" />
         <option value="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1.py" />
+        <option value="$PROJECT_DIR$/09_Uebungsblatt/Aufgabe1.py" />
+        <option value="$PROJECT_DIR$/09_Uebungsblatt/exercise1.py" />
+        <option value="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3_neu.py" />
+        <option value="$PROJECT_DIR$/10_Uebungsblatt/Aufgabe1.py" />
+        <option value="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1273" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -146,8 +151,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/de_neu/de_neu.dic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -167,73 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10_Aufgaben1">
-    <configuration name="03_Aufgabe1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CVIS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_Uebungsblatt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Uebungsblatt/03_Aufgabe1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="08_Aufgabe1u2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CVIS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_Uebungsblatt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_Uebungsblatt/08_Aufgabe1u2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="09_Aufgabe1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CVIS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Uebungsblatt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\BScho\PycharmProjects\CVIS\09_Uebungsblatt\09_Aufgaben1-2-3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.10_Aufgaben1_neu">
     <configuration name="09_Aufgaben1-2-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CVIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +196,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_Aufgaben1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="09_Aufgaben1-2-3_neu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CVIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Uebungsblatt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3_neu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10_Aufgaben1_neu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CVIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Uebungsblatt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Aufgabe1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CVIS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +242,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Uebungsblatt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Uebungsblatt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Uebungsblatt/Aufgabe1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,13 +278,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CVIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_Uebungsblatt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_Uebungsblatt/exercise1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10_Aufgaben1" />
+        <item itemvalue="Python.10_Aufgaben1_neu" />
+        <item itemvalue="Python.09_Aufgaben1-2-3_neu" />
+        <item itemvalue="Python.exercise1" />
+        <item itemvalue="Python.Aufgabe1" />
         <item itemvalue="Python.09_Aufgaben1-2-3" />
-        <item itemvalue="Python.09_Aufgabe1" />
-        <item itemvalue="Python.08_Aufgabe1u2" />
-        <item itemvalue="Python.03_Aufgabe1" />
       </list>
     </recent_temporary>
   </component>
@@ -329,16 +326,18 @@
       <workItem from="1543764364160" duration="14968000" />
       <workItem from="1543934111729" duration="3498000" />
       <workItem from="1543955469689" duration="600000" />
+      <workItem from="1544038870126" duration="728000" />
+      <workItem from="1544039632268" duration="8508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26467000" />
+    <option name="totallyTimeSpent" value="35703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="40" width="1294" height="1407" extended-state="0" />
+    <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16126418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12599364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,12 +352,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.2967033" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.29462197" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" x="0" y="0" width="273" height="1207" id="Documentation" order="4" side_tool="true" visible="true" weight="0.124797404" />
+      <window_info anchor="right" x="0" y="0" width="273" height="1207" id="Documentation" order="4" side_tool="true" visible="true" weight="0.061208267" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -377,13 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_Uebungsblatt/08_Aufgabe1u2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -409,10 +401,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/09_Uebungsblatt/Aufgabe1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="80" column="89" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_Uebungsblatt/exercise1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="534">
           <caret line="134" column="97" selection-start-line="134" selection-start-column="97" selection-end-line="134" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_Uebungsblatt/08_Aufgabe1u2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_Uebungsblatt/Aufgabe1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_Uebungsblatt/09_Aufgaben1-2-3_neu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_Uebungsblatt/10_Aufgaben1_neu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
         </state>
       </provider>
     </entry>
